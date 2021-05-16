@@ -1,0 +1,4 @@
+FROM redis
+EXPOSE 90
+COPY http-server/
+CMD ["/htttp-server"]
