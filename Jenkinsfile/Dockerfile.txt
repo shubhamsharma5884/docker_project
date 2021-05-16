@@ -1,4 +1,4 @@
 FROM redis
-EXPOSE 90
+EXPOSE 80
 COPY http-server/
 CMD ["/htttp-server"]
